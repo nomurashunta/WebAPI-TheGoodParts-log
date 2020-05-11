@@ -133,13 +133,13 @@
 ----
 - SNSアプリケーションにおけるエンドポイントの例
 
-|  目的  |  エンドポイント  |メソッド  |
-| ---- | ---- |----|----|
-|  ユーザーの一覧取得       |http://api.example.com/v1/users|GET   |
-|  ユーザーの新規登録       |http://api.example.com/v1/users|POST   |
-|  特定のユーザーの情報の取得|http://api.example.com/v1/users/:id|GET   |
-|  ユーザーの情報の更新     |http://api.example.com/v1/users/:id|PUT/PATCH   |
-| ユーザーの情報の削除      |http://api.example.com/v1/users/:id|DELETE   |
+| 目的 | エンドポイント | メソッド |
+| ---- | ---- |----|
+| ユーザーの一覧取得       |http://api.example.com/v1/users   |GET   |
+| ユーザーの新規登録       |http://api.example.com/v1/users   |POST   |
+| 特定のユーザーの情報の取得|http://api.example.com/v1/users/:id|GET   |
+| ユーザーの情報の更新     |http://api.example.com/v1/users/:id|PUT/PATCH   |
+| ユーザーの情報の削除     |http://api.example.com/v1/users/:id|DELETE   |
 
 - ユーザーの検索は、ユーザー一覧取得APIに対してクエリパラメータで絞り込みを行うことで実現する
 - `/users`はユーザーの集合、`/users/:id`は個々のユーザーを表すエンドポイント
